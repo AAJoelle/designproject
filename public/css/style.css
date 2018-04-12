@@ -1,0 +1,172 @@
+.button_material {
+  padding: 15px 25px;
+  /*font-size: 24px;*/
+  text-align: justify;
+  cursor: pointer;
+  outline: none;
+  color: rgb(241, 242, 249);
+	font-weight: bold;
+  background-color: #db5220;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 2px #18e49b;
+	margin: 1em;
+
+
+}
+
+/*
+.button_material {
+  min-width:45em;
+  padding: 1.2em 1em 0;
+  box-shadow:0 0 5px;
+  margin:1em;
+  border-radius:0.25em;
+}*/
+
+.button_material:hover {background-color: #040100}
+
+.button_material:active {
+  background-color: #3e8e41;rgb(187, 66, 14)
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/*parallax background image*/
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('/images/banner.jpg');
+
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*search form*/
+/*
+#course_code{
+	position: absolute;
+	 top: 70%;
+	 left: 80%;
+	 transform: translate(-50%, -50%);
+
+}
+
+#material_name{
+	position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+}*/
+
+
+
+.material{
+	position: absolute;
+	 top: 60%;
+	 left: 60%;
+	 transform: translate(-50%, -50%);
+}
+
+
+#course_code{
+	font-size: 18px;
+
+}
+
+
+#material_name{
+font-size: 18px;
+
+}
+
+div.form-group {
+    font-weight: 500;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 19px 20px;
+    border: medium none;
+    margin-right: 4%;
+		margin-bottom: 15px;
+    width: 90%;
+    float: left;
+}
+input.ico-01 {
+    background: url('/images/ico-01.png') no-repeat scroll 97% 20px / 21px 21px #FFF;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    cursor:pointer;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+h1{
+  position: center;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
